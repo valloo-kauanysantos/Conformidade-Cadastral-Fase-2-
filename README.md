@@ -214,3 +214,37 @@ Resposta sugerida:
 > "Não é possível concluir novos cadastros com CPF/CNPJ irregular.
 
 > Para contas já existentes, quando o documento se torna irregular, a conta é inativada automaticamente pelo sistema."
+
+## 10. GRC - Governança Risco Compliance
+
+### 10.1. Índice GRC
+1. Objetivo GRC
+2. Fluxo Automático
+3. Template Email GRC
+4. Configuração Técnica
+5. Relatórios Compliance
+6. Matriz de Ações GRC
+7. FAQ GRC
+8. Checklist Diário GRC
+
+### 10.1. Objetivo GRC
+Missão principal: Receber e agir sobre alertas AUTOMÁTICOS de contas ATIVAS:
+```text
+🚨 PEP = SIM 
+🚨 Lista de Sanções = SIM
+```
+
+Responsabilidades GRC:
+
+Receber email automático BigDataCorp KYC
+Analisar gravidade (PEP vs Sanções)
+BLOQUEAR/ENCERRAR contas manualmente
+Monitorar Relatórios 268/269 divergências cadastrais
+Escopo: Contas ATIVAS (status ≠ 9,10)
+Fluxo Automático BigDataCorp KYC
+Rotina diária executa:
+
+```text
+✅ pessoas_kyc (PF)
+✅ empresas_kyc (PJ)
+```
