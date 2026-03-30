@@ -231,12 +231,14 @@ Missão principal: Receber e agir sobre alertas AUTOMÁTICOS de contas ATIVAS:
 
 Responsabilidades GRC:
 
-Receber email automático BigDataCorp KYC
+Receber email automático 
 Analisar gravidade (PEP vs Sanções)
 BLOQUEAR/ENCERRAR contas manualmente
 Monitorar Relatórios 268/269 divergências cadastrais*
+
+
 Escopo: Contas ATIVAS (status ≠ 9,10)
-Fluxo Automático BigDataCorp KYC
+Fluxo Automático 
 Rotina executa:
 
 ✅ pessoas_kyc (PF)
