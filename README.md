@@ -219,13 +219,8 @@ Resposta sugerida:
 
 ### 10.1. Índice GRC
 1. Objetivo GRC
-2. Fluxo Automático
-3. Template Email GRC
-4. Configuração Técnica
-5. Relatórios Compliance
-6. Matriz de Ações GRC
-7. FAQ GRC
-8. Checklist Diário GRC
+2. Fluxo Automático Alerta
+3. FAQ GRC
 
 ### 10.1. Objetivo GRC
 Missão principal: Receber e agir sobre alertas AUTOMÁTICOS de contas ATIVAS:
@@ -239,12 +234,29 @@ Responsabilidades GRC:
 Receber email automático BigDataCorp KYC
 Analisar gravidade (PEP vs Sanções)
 BLOQUEAR/ENCERRAR contas manualmente
-Monitorar Relatórios 268/269 divergências cadastrais
+Monitorar Relatórios 268/269 divergências cadastrais*
 Escopo: Contas ATIVAS (status ≠ 9,10)
 Fluxo Automático BigDataCorp KYC
-Rotina diária executa:
+Rotina executa:
 
-```text
 ✅ pessoas_kyc (PF)
 ✅ empresas_kyc (PJ)
+
+```text
+**Triggers técnicos (dispara EMAIL GRC):**
 ```
+pep_flag = true
+OU
+restricoes.sancoes.length > 0
+
+**Resultado:** Email enviado alertando para lista de e-mails cadastrados
+
+
+### 10.3. FAQ GRC Operacional
+
+**❓ "Email não chegou?"**
+> ✅ Checar spam/backup inbox
+
+**❓ "Apenas contas ativas?"**
+> ✅ SIM - status ≠ 9,10  
+> ✅ Inativas não geram alerta
