@@ -207,7 +207,7 @@ Resposta sugerida:
 
 ### 9.2. "Essa inativação é manual?"
 Resposta sugerida:
-> "Não. A inativação é automática e ocorre diariamente, para garantir conformidade com as normas do Banco Central. Todas as contas passam por essa validação recorrente."
+> "Não. A inativação é automática e ocorre a cada vez que a rotina é executada, para garantir conformidade com as normas do Banco Central. Todas as contas passam por essa validação recorrente."
 
 ### 9.3. "Posso cadastrar mesmo assim?"
 Resposta sugerida:
@@ -237,7 +237,7 @@ BLOQUEAR/ENCERRAR contas manualmente
 Monitorar Relatórios 268/269 divergências cadastrais*
 
 
-Escopo: Contas ATIVAS (status ≠ 9,10)
+Escopo: Contas ATIVAS 
 Fluxo Automático 
 Rotina executa:
 
