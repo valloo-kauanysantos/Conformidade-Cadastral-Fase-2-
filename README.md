@@ -1,6 +1,6 @@
 # VALLOO – Projeto Conformidade Cadastral
 
-**MANUAL OPERACIONAL – Equipe de Relacionamento**  
+**MANUAL OPERACIONAL **  
 Março 2026 · **CONFIDENCIAL**
 
 *Agradecimento especial à equipe responsável pelo desenvolvimento: Silver Squad (Deivid, Alisson e Carla).*
